@@ -87,6 +87,7 @@ items:
       spec:
         containers:
         - image: "afzal/nodejs-sample:latest"
+          imagePullPolicy: Never
           name: web
           ports:
           - containerPort: 3000
